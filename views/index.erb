@@ -1,0 +1,14 @@
+<div>
+  Search:
+  <form action="/tags" method="GET">
+    <div><input type="text" name="url"/></div>
+  </form>
+</div>
+<div>
+  Add:
+  <form action="/tags" method="POST">
+    <input type="hidden" name="_method" value="PUT"/>
+    <div><input type="text" name="url"/></div>
+    <div><input type="text" name="tags"/></div>
+  </form>
+</div>
